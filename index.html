@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><ibrahimkaban-project></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+   <!--Header Alanı--> 
+   <header>
+    <nav>
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Kurslar</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Iletişim</a></li>
+            </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+   </header>
+
+   <!-- Metin Kutucuğu-->
+   <div class="text-box">
+    <h1>Burasi Udemig Kolejidir, Burda Sadece Gerçekler Hayatta Kalır</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, voluptas deserunt porro doloremque ex dicta deleniti tempora quo, alias consectetur fugiat rem architecto ullam cupiditate quia asperiores perferendis inventore adipisci? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde laudantium atque, rerum magni incidunt sit saepe cum vero, odio ad officia fugiat nobis debitis molestiae distinctio provident voluptatum ipsum error!</p>
+    <a href="" class="hero-btn">Daha Fazlasi İçin Dokun</a>
+   </div>
+
+   <!-- Kurslar Alani -->
+   <section class="course">
+        <h1>Burada bizler sizlere çok farkli seçenekleri sunuyoruz.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eum quia cumque totam ducimus aliquam id odio ipsum obcaecati soluta accusamus ratione ipsa sit consectetur, consequatur natus, officia amet minima autem aperiam incidunt unde. Ducimus accusantium eligendi quidem, earum sunt mollitia aperiam quae itaque iste quaerat omnis rem facilis illo. Molestiae quisquam voluptatum id illum!</p>  
+        <div class="row">
+            <!--Birinci Kurs-->
+            <div class="course-col">
+                <h3>Başlangiç</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam tenetur 
+                    adipisci illo laboriosam molestiae aperiam autem deleniti sapiente, quam soluta, 
+                    odit eos. Dolorem libero reiciendis inventore, reprehenderit esse impedit magnam 
+                    fugiat iusto ipsam rem animi quisquam ab quae, doloribus fugit amet architecto facere 
+                    dicta officia, tempora culpa distinctio quibusdam ipsum. Ad voluptatibus velit molestias.</p>
+            </div>
+            <!--İKinci Kurs-->
+            <div class="course-col">
+                <h3>Orta düzey</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam tenetur 
+                    adipisci illo laboriosam molestiae aperiam autem deleniti sapiente, quam soluta, 
+                    odit eos. Dolorem libero reiciendis inventore, reprehenderit esse impedit magnam 
+                    fugiat iusto ipsam rem animi quisquam ab quae, doloribus fugit amet architecto facere 
+                    dicta officia, tempora culpa distinctio quibusdam ipsum. Ad voluptatibus velit molestias.</p>
+            </div>
+            <!--Üçüncü Kurs-->
+            <div class="course-col">
+                <h3>İleri</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, totam tenetur 
+                    adipisci illo laboriosam molestiae aperiam autem deleniti sapiente, quam soluta, 
+                    odit eos. Dolorem libero reiciendis inventore, reprehenderit esse impedit magnam 
+                    fugiat iusto ipsam rem animi quisquam ab quae, doloribus fugit amet architecto facere 
+                    dicta officia, tempora culpa distinctio quibusdam ipsum. Ad voluptatibus velit molestias.</p>
+            </div>
+        </div>
+   
+   
+    </section>
+
+
+    <!--Yerleşkelerimiz-->
+    <section class="campus">
+        <h1>Nerelerde Variz?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis nobis obcaecati quisquam. 
+            Labore, laudantium. Iure minima inventore, quasi consectetur, vero maiores fuga quas natus, qui 
+            veritatis molestiae amet dolor. Sequi quo perferendis voluptatibus corporis.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/istanbul.jpg" alt="">
+                <div class="layer">
+                    <h3>İSTANBUL</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/istanbul.jpg" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/istanbul.jpg" alt="">
+                <div class="layer">
+                    <h3>LONDRA</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <!--JavaScript-->
+   <script>
+        var navLinks = document.getElementById('navlinks')
+
+        function showMenu(){
+            navLinks.style.right = "0"
+    }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+    }
+   </script>
+
+</body>
+</html>
